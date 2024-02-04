@@ -1,6 +1,9 @@
 # goit-react-woolf-hw-01-components
 
-## 1 - Social network profile
+[Task 1 - Social network profile](#task1) [Task 2 - Statistics Section](#task2)
+[Task 3 - Friends list](#task3) [Task 4 - Transaction History](#task4)
+
+## <a id="task1">1 - Social network profile</a>
 
 We need to create a `Profile` component with which we could display information
 about a social network user. The data about the user is in the file `user.json`.
@@ -17,7 +20,7 @@ The component must accept several props with information about the user:
 
 The component must create a DOM element of the following structure:
 
-```
+```js
 <div class="profile">
   <div class="description">
     <img
@@ -48,7 +51,7 @@ The component must create a DOM element of the following structure:
 
 ### Example of usage
 
-```
+```js
 import user from 'path/to/user.json;
 
 <Profile
@@ -60,7 +63,7 @@ import user from 'path/to/user.json;
 />
 ```
 
-## 2- Statistics Section
+## <a id="task2">2- Statistics Section</a>
 
 Create a component `Statistics`, which would display statistics on the
 transferred props. For example, uploads to the cloud by file type, webpage
@@ -81,7 +84,7 @@ You can skip the background color of the statistical item in the design, or
 create a function to generate a random color. The component must create a DOM
 element of the following structure:
 
-```
+```js
 <section class="statistics">
   <h2 class="title">Upload stats</h2>
   <ul class="stat-list">
@@ -107,14 +110,14 @@ element of the following structure:
 
 ### Example of usage
 
-```
+```js
 import data from '/path/to/data.json';
 
 <Statistics title="Upload stats" stats={data} />
 <Statistics stats={data} />
 ```
 
-## 3 - Friends list
+## <a id="task3">3 - Friends list</a>
 
 We need to create a component `FriendList` with which we could display
 information about the user's friends. The information about friends is stored in
@@ -125,7 +128,7 @@ the file `friends.json`.
 The component must accept one prop `friends` (an array of friend objects). The
 component must create a DOM of the following structure.
 
-```
+```js
 <ul class="friend-list">
   <!-- Any number of FriendListItem -->
 </ul>
@@ -143,7 +146,7 @@ The component must take several props:
 
 The component must create a DOM of the following structure.
 
-```
+```js
 <li class="item">
   <span class="status"></span>
   <img class="avatar" src="" alt="User avatar" width="48" />
@@ -153,13 +156,13 @@ The component must create a DOM of the following structure.
 
 ### Example of usage
 
-```
+```js
 import friends from 'path/to/friends.json';
 
 <FriendList friends={friends} />;
 ```
 
-## 4 - Transaction History
+## <a id="task4">4 - Transaction History</a>
 
 A component of the transaction history must be created in the personal profile
 of the Internet Bank. Data for the list is available in JSON format in the file
@@ -178,7 +181,7 @@ We need to create a component `TransactionHistory` that accepts one prop `items`
 creates a table layout. Each transaction is a table row. The example shows the
 markup of two transactions.
 
-```
+```js
 <table class="transaction-history">
   <thead>
     <tr>
@@ -204,7 +207,7 @@ markup of two transactions.
 
 ### Example of usage
 
-```
+```js
 import transactions from 'path/to/transactions.json';
 
 <TransactionHistory items={transactions} />;
