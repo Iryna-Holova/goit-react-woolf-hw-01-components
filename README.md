@@ -8,7 +8,7 @@
 
 [Task 4 - Transaction History](#task4)
 
-## <a id="task1">1 - Social network profile</a>
+## <a id="task1">Task 1 - Social network profile</a>
 
 We need to create a `Profile` component with which we could display information
 about a social network user. The data about the user is in the file `user.json`.
@@ -68,7 +68,7 @@ import user from 'path/to/user.json;
 />
 ```
 
-## <a id="task2">2- Statistics Section</a>
+## <a id="task2">Task 2- Statistics Section</a>
 
 Create a component `Statistics`, which would display statistics on the
 transferred props. For example, uploads to the cloud by file type, webpage
@@ -122,7 +122,7 @@ import data from '/path/to/data.json';
 <Statistics stats={data} />
 ```
 
-## <a id="task3">3 - Friends list</a>
+## <a id="task3">Task 3 - Friends list</a>
 
 We need to create a component `FriendList` with which we could display
 information about the user's friends. The information about friends is stored in
@@ -167,7 +167,7 @@ import friends from 'path/to/friends.json';
 <FriendList friends={friends} />;
 ```
 
-## <a id="task4">4 - Transaction History</a>
+## <a id="task4">Task 4 - Transaction History</a>
 
 A component of the transaction history must be created in the personal profile
 of the Internet Bank. Data for the list is available in JSON format in the file
