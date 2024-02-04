@@ -1,7 +1,12 @@
 # goit-react-woolf-hw-01-components
 
-[Task 1 - Social network profile](#task1) [Task 2 - Statistics Section](#task2)
-[Task 3 - Friends list](#task3) [Task 4 - Transaction History](#task4)
+[Task 1 - Social network profile](#task1)
+
+[Task 2 - Statistics Section](#task2)
+
+[Task 3 - Friends list](#task3)
+
+[Task 4 - Transaction History](#task4)
 
 ## <a id="task1">1 - Social network profile</a>
 
