@@ -139,7 +139,7 @@ component must create a DOM of the following structure.
 </ul>
 ```
 
-### Description of the FriendListItem component
+### Description of the `FriendListItem` component
 
 The component must take several props:
 
