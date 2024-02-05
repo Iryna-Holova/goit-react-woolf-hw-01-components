@@ -13,12 +13,12 @@
 We need to create a `Profile` component with which we could display information
 about a social network user. The data about the user is in the file `user.json`.
 
-### Description of the Profile component
+### Description of the `Profile` component
 
 The component must accept several props with information about the user:
 
 - `username` — user name
-- `tag` — Social network tag without @
+- `tag` — social network tag without @
 - `location` — city and country
 - `avatar` — link to image
 - `stats` — object with information about activity
@@ -75,7 +75,7 @@ transferred props. For example, uploads to the cloud by file type, webpage
 visits by users from different countries, financial expenses, etc. The data
 about statistics is stored in the `data.json` file.
 
-### Description of the Statistics component
+### Description of the `Statistics` component
 
 The component must accept two props title and stats, in which the header and the
 statistics object are specified.
@@ -128,7 +128,7 @@ We need to create a component `FriendList` with which we could display
 information about the user's friends. The information about friends is stored in
 the file `friends.json`.
 
-### Description of the FriendList component
+### Description of the `FriendList` component
 
 The component must accept one prop `friends` (an array of friend objects). The
 component must create a DOM of the following structure.
@@ -179,7 +179,7 @@ single transaction with the following properties:
 - `amount` - transaction amount
 - `currency` - currency type
 
-### Description of the TransactionHistory component
+### Description of the `TransactionHistory` component
 
 We need to create a component `TransactionHistory` that accepts one prop `items`
 (an array of transaction objects from `transactions.json`). The component
