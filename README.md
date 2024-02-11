@@ -25,7 +25,7 @@ The component must accept several props with information about the user:
 
 The component must create a DOM element of the following structure:
 
-```js
+```jsx
 <div class="profile">
   <div class="description">
     <img
@@ -56,7 +56,7 @@ The component must create a DOM element of the following structure:
 
 ### Example of usage
 
-```js
+```jsx
 import user from 'path/to/user.json;
 
 <Profile
@@ -89,7 +89,7 @@ You can skip the background color of the statistical item in the design, or
 create a function to generate a random color. The component must create a DOM
 element of the following structure:
 
-```js
+```jsx
 <section class="statistics">
   <h2 class="title">Upload stats</h2>
   <ul class="stat-list">
@@ -115,7 +115,7 @@ element of the following structure:
 
 ### Example of usage
 
-```js
+```jsx
 import data from '/path/to/data.json';
 
 <Statistics title="Upload stats" stats={data} />
@@ -133,7 +133,7 @@ the file `friends.json`.
 The component must accept one prop `friends` (an array of friend objects). The
 component must create a DOM of the following structure.
 
-```js
+```jsx
 <ul class="friend-list">
   <!-- Any number of FriendListItem -->
 </ul>
@@ -151,7 +151,7 @@ The component must take several props:
 
 The component must create a DOM of the following structure.
 
-```js
+```jsx
 <li class="item">
   <span class="status"></span>
   <img class="avatar" src="" alt="User avatar" width="48" />
@@ -161,7 +161,7 @@ The component must create a DOM of the following structure.
 
 ### Example of usage
 
-```js
+```jsx
 import friends from 'path/to/friends.json';
 
 <FriendList friends={friends} />;
@@ -186,7 +186,7 @@ We need to create a component `TransactionHistory` that accepts one prop `items`
 creates a table layout. Each transaction is a table row. The example shows the
 markup of two transactions.
 
-```js
+```jsx
 <table class="transaction-history">
   <thead>
     <tr>
@@ -212,7 +212,7 @@ markup of two transactions.
 
 ### Example of usage
 
-```js
+```jsx
 import transactions from 'path/to/transactions.json';
 
 <TransactionHistory items={transactions} />;
